@@ -625,10 +625,6 @@ pre tt:after {
   }
 }
 
-.logo {
-  text-align: center;
-  font-family: 'Pacifico', cursive;
-}
 
 .logo-image {
   height: 70px;
@@ -669,7 +665,7 @@ pre tt:after {
   font-family: courier;
 }
 
-.about h1, p, a {
+.about p {
   font-family: 'Courier';
 }
 
@@ -677,5 +673,14 @@ pre tt:after {
   text-decoration: none;
   color: #ff86ee;
   font-style: italic;
+  font-family: 'Courier';
+}
 
+.about h1 {
+  font-family: 'Courier';
+}
+
+.logo {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
 }
