@@ -668,3 +668,14 @@ pre tt:after {
 .task h2 {
   font-family: courier;
 }
+
+.about h1, p, a {
+  font-family: 'Courier';
+}
+
+.about a {
+  text-decoration: none;
+  color: #ff86ee;
+  font-style: italic;
+
+}
