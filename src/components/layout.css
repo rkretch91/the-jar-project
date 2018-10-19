@@ -696,6 +696,7 @@ input {
   border-left: none;
   border-right: none;
   border-bottom: 1.5px solid black;
+  border-radius: 0;
 }
 
 input:focus { outline: none; }
