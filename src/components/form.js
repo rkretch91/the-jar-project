@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Form extends React.Component(
+class Form extends React.Component{
   render() {
     return(
       <form name="add" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -10,6 +10,6 @@ class Form extends React.Component(
       </form>
       )
     }
-)
+}
 
 export default Form
