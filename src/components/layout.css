@@ -684,3 +684,21 @@ pre tt:after {
   text-align: center;
   font-family: 'Pacifico', cursive;
 }
+
+.btn-form {
+  border: none;
+  background-color: white;
+  font-weight:bold;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+}
+
+input:focus { outline: none; }
+
+button:focus { outline: none; }
+button:hover { font-weight: lighter; }
