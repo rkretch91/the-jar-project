@@ -58,7 +58,7 @@ export function getFunName() {
                  'Compliment 3 strangers',
                  'Call an old friend',
                  'Send five friends or family members messages about their strongest qualities to boost their confidence',
-                 'Make your partner or someone breakfast in bed (or a friend or roommate if your singling these days)',
+                 'Make your partner or someone breakfast in bed (or a friend or roommate if you are singling these days)',
                  'Put away google maps and ask strangers for directions today. Practice on 3 people.',
                  'Starting today, for one month, track how much you are spending and begin changing your financial habits',
                  'Speak up in a meeting today and voice your opinion',

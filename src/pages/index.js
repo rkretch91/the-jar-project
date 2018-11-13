@@ -22,9 +22,9 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <div className="task">
-          <h2>{this.state.value}</h2>
+          <h2 class="task-name">{this.state.value}</h2>
         </div>
-        <div className="main-jar" >
+        <div className="main-jar">
           <img src={jar} alt="jar-project-logo" onClick={this.grabNameValue}/>
           <p>Instructions: Click the jar once a day for your daily task. Each task will encourage you to conquer fears, do something nice for others, or encourage spontaneity. Do it, record it, repeat (unless it isn't relevant of course!)</p>
           <Form/>

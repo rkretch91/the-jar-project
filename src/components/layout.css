@@ -703,3 +703,15 @@ input:focus { outline: none; }
 
 button:focus { outline: none; }
 button:hover { font-weight: lighter; }
+
+.task-name {
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+    0%   {opacity: 0;}
+    50%  {opacity: .5;}
+    100% {opacity: 1;}
+}
