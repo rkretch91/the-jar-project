@@ -8,7 +8,7 @@ const Form = () => (
          <input type="text" name="new" id="new" />
         </div>
         <div>
-         <input type="submit" className="btn-form" value="[Add To Jar]"/>
+         <input type="submit" className="btn-form" value="Add To Jar"/>
         </div>
       </form>
     </div>
