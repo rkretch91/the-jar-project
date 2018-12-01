@@ -9,7 +9,7 @@ class Form extends React.Component{
          <input type="text" name="new" />
         </div>
         <div>
-         <button type="submit" className="btn-form">[Add To Jar]</button>
+         <input type="submit" className="btn-form" value="[Add To Jar]"/>
         </div>
       </form>
       )
