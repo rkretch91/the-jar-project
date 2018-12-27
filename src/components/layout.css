@@ -708,7 +708,7 @@ input {
 
 input:focus { outline: none; }
 
-button:focus { outline: none; }
+/*button:focus { outline: none; }*/
 button:hover { font-weight: lighter; }
 
 .task-name {
