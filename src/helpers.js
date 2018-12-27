@@ -46,7 +46,7 @@ export function getFunName() {
                  'Sign up to study a new language or course today',
                  'Get your running shoes on and go for a mind-clearing jog',
                  'Apply to a new opportunity today',
-                 'If you haven’t started yet, start meditating for 30 days today (<a href="https://www.headspace.com/">Headspace</a> is a great app)',
+                 'If you haven’t started yet, start meditating for 30 days today (Headspace is a great app)',
                  'Open the door for someone every time you go through a door today',
                  'Buy a stranger a flower',
                  'Do a chore for someone without them noticing',
