@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import jar from '../images/jar-image.jpg'
 import diagram from '../images/diagram.png'
+import Form from '../components/form'
 
 
 import Layout from '../components/layout'
