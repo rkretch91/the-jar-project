@@ -27,10 +27,11 @@ class IndexPage extends React.Component {
         <div className="main-jar">
           <img src={jar} alt="jar-project-logo" onClick={this.grabNameValue}/>
           <p>Instructions: Click the jar once a day for your daily task. Each task will encourage you to conquer fears, do something nice for others, or encourage spontaneity. Do it, record it, repeat (unless it isn't relevant of course!)</p>
+        </div>
+        <div className="main-jar">
           <Form/>
           <Link to="/page-2">About The Jar Project</Link>
         </div>
-
       </Layout>
     )
   }
