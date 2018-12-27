@@ -6,7 +6,7 @@ const Form = () => (
         <div>
          <input type="text" name="new" id="new" />
         </div>
-        <input type="submit" className="btn-form" value="Add To Jar"/>
+        <input type="submit" className="btn-form button" value="Add To Jar"/>
       </form>
   )
 
