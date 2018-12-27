@@ -691,6 +691,13 @@ pre tt:after {
   font-weight:bold;
 }
 
+.btn-form:hover {
+  border: none;
+  background-color: white;
+  font-weight:lighter;
+  color: #ff86ee;
+}
+
 input {
   border-top: none;
   border-left: none;
