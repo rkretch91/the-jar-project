@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Form from '../components/form'
 import jar from '../images/the-jar-project-big.png'
+import Insta from '../components/instafeed'
 import { getFunName } from '../helpers'
 
 class IndexPage extends React.Component {
@@ -18,8 +19,20 @@ class IndexPage extends React.Component {
     this.setState({value: getFunName()})
   }
 
+  componentDidMount () {
+
+    const script = document.createElement("script");
+
+    script.src = "https://apps.elfsight.com/p/platform.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+
+  }
+
   render() {
     return (
+
       <Layout>
         <div className="task">
           <h2 className="task-name">{this.state.value}</h2>
@@ -32,6 +45,7 @@ class IndexPage extends React.Component {
           <Form/>
           <Link to="/page-2">About The Jar Project</Link>
         </div>
+        <Insta/>
       </Layout>
     )
   }
