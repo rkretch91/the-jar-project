@@ -18,7 +18,7 @@ const SecondPage = () => (
       <img src={diagram} alt="happiness-diagram"/>
       <p>The Jar Project is a daily reminder to open up your world to these three aspects, and do something atypical on the daily; for it is these uncomfortable moments and periods of reflection that will help us reconnect and grow as a human race.</p>
       <p>Go ahead and pick something out of the jar. Record it, document it, and tomorrow, pick something new. Just think of what a year or lifetime of kindness, spontaneity, and conquering fears can do to you. </p>
-      <a href="https://thehopelessroamantic.com"><img src="https://res.cloudinary.com/dofuzeof4/image/upload/v1546186667/The%20Jar%20Project/the-hopeless-roamantic.png" alt="the hopeless roamantic"/></a>
+      <a href="https://www.thehopelessroamantic.com"><img src="https://res.cloudinary.com/dofuzeof4/image/upload/v1546186667/The%20Jar%20Project/the-hopeless-roamantic.png" alt="the hopeless roamantic"/></a>
       <Link to="/">Go back to The Jar</Link>
     </div>
   </Layout>
