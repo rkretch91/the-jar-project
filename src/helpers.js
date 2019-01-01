@@ -68,7 +68,21 @@ export function getFunName() {
                  'Get somebody’s phone number today',
                  'Get your voice out there today (an opinion, your music, your love for someone) in whatever way (message, video, in-person)',
                  'Identify your biggest phobia and do something today to fix it',
-                 'Come up with an idea (or an existing idea) and tell two people about it asking for feedback'];
+                 'Come up with an idea (or an existing idea) and tell two people about it asking for feedback',
+                 'Make a three course meal from scratch for someone you have never cooked for before',
+                 'give a book you love to a stranger',
+                 'give some food to a homeless person',
+                 'go skinny dipping in a lake',
+                 'give three compliments to a stranger - it has to be the same person for all three',
+                 'throw a surprise party,',
+                 'buy a stranger a drink',
+                 'book a flight the day before you travel and go on a spontaneous adventure',
+                 'get on a national train and take it to the end of the line',
+                 'have sex in a place you have never had sex before',
+                 'write someone you love a rainy day letter',
+                 'crash a wedding',
+                 'speak only a non-mother tongue language for the whole day',
+                 'send a driend a message telling him or her all the good things you like about him or her'];
 
   const generatedMessage = `${rando(fears)}`
   return generatedMessage;
