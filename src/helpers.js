@@ -70,19 +70,19 @@ export function getFunName() {
                  'Identify your biggest phobia and do something today to fix it',
                  'Come up with an idea (or an existing idea) and tell two people about it asking for feedback',
                  'Make a three course meal from scratch for someone you have never cooked for before',
-                 'give a book you love to a stranger',
-                 'give some food to a homeless person',
-                 'go skinny dipping in a lake',
-                 'give three compliments to a stranger - it has to be the same person for all three',
-                 'throw a surprise party,',
-                 'buy a stranger a drink',
-                 'book a flight the day before you travel and go on a spontaneous adventure',
-                 'get on a national train and take it to the end of the line',
-                 'have sex in a place you have never had sex before',
-                 'write someone you love a rainy day letter',
-                 'crash a wedding',
-                 'speak only a non-mother tongue language for the whole day',
-                 'send a driend a message telling him or her all the good things you like about him or her'];
+                 'Give a book you love to a stranger',
+                 'Give some food to a homeless person',
+                 'Go skinny dipping in a lake',
+                 'Give three compliments to a stranger - it has to be the same person for all three',
+                 'Throw a surprise party',
+                 'Buy a stranger a drink',
+                 'Book a flight the day before you travel and go on a spontaneous adventure',
+                 'Get on a national train and take it to the end of the line',
+                 'Have sex in a place you have never had sex before',
+                 'Write someone you love a rainy day letter',
+                 'Crash a wedding',
+                 'Speak only a non-mother tongue language for the whole day',
+                 'Send a friend a message telling him or her all the good things you like about him or her'];
 
   const generatedMessage = `${rando(fears)}`
   return generatedMessage;
